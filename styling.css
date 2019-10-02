@@ -1,63 +1,208 @@
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+section, nav, button {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
 body {
-    background: slategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #789780;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 75%;
 }
 
 header {
-    /* display: flex; */
-    /* justify-content: center; */
+    background: #ab4446;
+    text-align: center;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    background: #c3b472;
+    padding: 5px;
+    border: solid 1px black;
+}
+
+nav a {
+    padding: 20px;
+}
+
+section {
+    max-width: 1300px;
+    padding: 10px;
+    border: solid 1px black;
+    border-bottom: 0;
+}
+
+.introduction {
+    background: #dfdbb5;
+}
+
+.experiences {
+    background: #C3B472;
+}
+
+.hobbies {
+    background: #9a3722;
+}
+
+.personal-life {
+    background: #ec9533;
+    border-bottom: solid 1px black;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #9a3722;
+    border-bottom: solid 1px black;
+}
+
+#quiz-button {
+    width: 300px;
+    border: solid 1px black;
 }
 
 #dan-pic {
-    max-width: 30%;
+    max-width: 600vw;
+    /* height: auto; */
+    float: left;
+}
+
+.dan-pic {
+    border: solid 1px black;
+}
+
+#seal {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seal {
+    border: solid 1px black;
+}
+
+#bandidos {
+    float: left;
+    max-width: 40%;
     height: auto;
+}
+
+.bandidos {
+    max-width: 100%;
+    height: auto;
+    border: solid 1px black;
 }
 
 #canoe_1 {
-    max-width: 50%;
+    width: 45%;
     height: auto;
+    float: right;
 }
 
-#canoe_2 {
-    max-width: 30%;
+.canoe_1 {
+    width: 100%;
     height: auto;
+    border: solid 1px black;
 }
 
 #mountains {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
+    float: left;
 }
 
-#rainbow {
-    max-width: 50%;
+.mountains {
+    max-width: 100%;
     height: auto;
+    border: solid 1px black;
 }
 
 #coast {
-    max-width: 50%;
+    width: 30%;
     height: auto;
+    float: right;
+}
+
+.coast {
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
 }
 
 #guitar {
     max-width: 40%;
     height: auto;
+    float: left;
+}
+
+.guitar {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
 }
 
 #family {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
+    float: right;
 }
 
-#piggyback {
-    max-width: 50%;
+.family {
+    max-width: 100%;
     height: auto;
-}
-
-#giggling {
-    max-width: 50%;
-    height: auto;
+    border: 1px solid black;
 }
 
 #winter {
-    max-width: 50%;
+    max-width: 33%;
     height: auto;
+    float: left;
+}
+
+.winter {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+#piggyback {
+    max-width: 33%;
+    height: auto;
+    float: right;
+}
+
+.piggyback {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+#giggling {
+    max-width: 33%;
+    height: auto;
+    float: right;
+}
+
+.giggling {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
 }

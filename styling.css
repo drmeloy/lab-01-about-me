@@ -78,9 +78,18 @@ section {
     border: solid 1px black;
 }
 
+#quiz-results {
+    background: navajowhite;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
 #dan-pic {
     max-width: 600vw;
-    /* height: auto; */
     float: left;
 }
 

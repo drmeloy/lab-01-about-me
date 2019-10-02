@@ -1,4 +1,4 @@
-import { isCorrect } from "../src/is-correct.js";
+import { isCorrect } from '../src/is-correct.js';
 const test = QUnit.test;
 
 test('isCorrect should return true if user says yes', function(assert) {

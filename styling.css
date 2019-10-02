@@ -1,0 +1,63 @@
+body {
+    background: slategrey;
+}
+
+header {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+#dan-pic {
+    max-width: 30%;
+    height: auto;
+}
+
+#canoe_1 {
+    max-width: 50%;
+    height: auto;
+}
+
+#canoe_2 {
+    max-width: 30%;
+    height: auto;
+}
+
+#mountains {
+    max-width: 50%;
+    height: auto;
+}
+
+#rainbow {
+    max-width: 50%;
+    height: auto;
+}
+
+#coast {
+    max-width: 50%;
+    height: auto;
+}
+
+#guitar {
+    max-width: 40%;
+    height: auto;
+}
+
+#family {
+    max-width: 50%;
+    height: auto;
+}
+
+#piggyback {
+    max-width: 50%;
+    height: auto;
+}
+
+#giggling {
+    max-width: 50%;
+    height: auto;
+}
+
+#winter {
+    max-width: 50%;
+    height: auto;
+}
